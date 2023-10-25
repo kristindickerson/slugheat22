@@ -1,0 +1,26 @@
+TAP file not found ...
+TAP data read in PEN file: Tilt = 8.6 deg - Depth = 5805.0 m ...
+
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 6
+Heat Pulse Record:  64
+End of Data Record: 113
+
+09-Oct-2023 09:26:42 - End of raw data reading and preparation !
+==========================================================================
+
+
+TAP file ALHF1_08_rf.tapread ...
+
+-------------------------------------------------------------------------------
+09-Oct-2023 09:27:23
+ - Begin SlugHeat22 PROCESSING
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 6
+Heat Pulse Record:  64
+End of Data Record: 113
+

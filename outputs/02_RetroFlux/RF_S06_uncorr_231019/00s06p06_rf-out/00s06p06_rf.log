@@ -1,0 +1,24 @@
+Penetration file /Users/kristindickerson/03_local-repos/slugheat/inputs/Old_HFData/ReformattedPens/RetroFlux-2000_rf/S06_rf/00s06p06_rf.pen read ...
+Split penetration and heat pulse data:
+There is NO heat pulse record ...
+
+Penetration Record: 6
+Heat Pulse Record:  -999
+End of Data Record: 58
+
+19-Oct-2023 16:37:37 - End of raw data reading and preparation !
+==========================================================================
+
+
+TAP file 00s06p06_rf.tapread ...
+
+-------------------------------------------------------------------------------
+19-Oct-2023 16:38:05
+ - Begin SlugHeat22 PROCESSING
+Split penetration and heat pulse data:
+There is NO heat pulse record ...
+
+Penetration Record: 6
+Heat Pulse Record:  -999
+End of Data Record: 58
+

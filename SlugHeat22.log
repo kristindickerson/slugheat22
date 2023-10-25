@@ -1,0 +1,52 @@
+----------------------------------------------
+----------------------------------------------
+SlugHeat22 start time: 25-Oct-2023 15:05:40
+----------------------------------------------
+----------------------------------------------
+
+25-Oct-2023 15:05:40 Processing set up and data preparation
+==================================================================================================
+
+ -- Finding parameter file...
+Parameter file: /Users/kristindickerson/03_local-repos/slugheat/SlugHeat22.par
+
+-- Reading in parameters from parameters file
+
+-- Resetting SlugHeat: clearing all...
+
+-- Resetting penetration information
+
+ -- Finding penetration file from SlugPen...
+Penetration file: /Users/kristindickerson/03_local-repos/slugheat/inputs/Old_HFData/ReformattedPens/Alvin_rf/HF-751-01.pen
+
+ -- Finding tap file from SlugPen...
+TAP file: /Users/kristindickerson/03_local-repos/slugheat/inputs/Old_HFData/ReformattedPens/Alvin_rf/HF-751-01.tap
+
+ -- Finding mat file from SlugPen...
+MAT file: /Users/kristindickerson/03_local-repos/slugheat/inputs/Old_HFData/ReformattedPens/Alvin_rf/HF-751-01.mat
+
+ -- Reading in parameters from parameter file...
+-- Splitting penetration and heat pulse data
+
+-- Plotting unprocessed penetration data on "Penetration Data" tab
+
+-- Reading in TAP file
+
+-- Reading in parameters from parameters file
+
+==================================================================================================
+
+25-Oct-2023 15:08:15
+ - Begin SlugHeat22 PROCESSING
+==================================================================================================
+
+-- Splitting penetration and heat pulse data
+
+==================================================================================================
+
+25-Oct-2023 15:09:23
+ - Begin SlugHeat22 PROCESSING
+==================================================================================================
+
+-- Splitting penetration and heat pulse data
+

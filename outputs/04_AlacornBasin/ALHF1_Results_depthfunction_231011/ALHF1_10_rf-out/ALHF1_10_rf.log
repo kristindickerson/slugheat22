@@ -1,0 +1,40 @@
+TAP file not found ...
+TAP data read in PEN file: Tilt = 6.7 deg - Depth = 5810.0 m ...
+
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 6
+Heat Pulse Record:  63
+End of Data Record: 115
+
+29-Sep-2023 11:57:43 - End of raw data reading and preparation !
+==========================================================================
+
+
+TAP file ALHF1_10_rf.tapread ...
+
+-------------------------------------------------------------------------------
+29-Sep-2023 12:05:33
+ - Begin SlugHeat22 PROCESSING
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 6
+Heat Pulse Record:  63
+End of Data Record: 115
+
+These sensors are IGNORED in equilibrium temperature processing: 
+
+These sensors are IGNORED in thermal conductivity processing: 3  4
+
+-------------------------------------------------------------------------------
+29-Sep-2023 12:06:42
+ - Begin SlugHeat22 PROCESSING
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 6
+Heat Pulse Record:  63
+End of Data Record: 115
+

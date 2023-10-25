@@ -1,0 +1,56 @@
+Penetration file /Users/kristindickerson/03_local-repos/slugheat/inputs/CHINOoK/CHINOoK_rf/HF2/CHINOoK_HF2_1.pen read ...
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 7
+Heat Pulse Record:  30
+End of Data Record: 57
+
+11-Oct-2023 08:13:12 - End of raw data reading and preparation !
+==========================================================================
+
+
+TAP file CHINOoK_HF2_1.tapread ...
+
+These sensors are IGNORED in processing: 8   9  10  11
+
+-------------------------------------------------------------------------------
+11-Oct-2023 08:13:56
+ - Begin SlugHeat22 PROCESSING
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 7
+Heat Pulse Record:  30
+End of Data Record: 57
+
+-------------------------------------------------------------------------------
+11-Oct-2023 08:14:00
+ - Begin SlugHeat22 PROCESSING
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 7
+Heat Pulse Record:  30
+End of Data Record: 57
+
+-------------------------------------------------------------------------------
+11-Oct-2023 08:15:00
+ - Begin SlugHeat22 PROCESSING
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 7
+Heat Pulse Record:  30
+End of Data Record: 57
+
+-------------------------------------------------------------------------------
+11-Oct-2023 08:16:15
+ - Begin SlugHeat22 PROCESSING
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 7
+Heat Pulse Record:  30
+End of Data Record: 57
+

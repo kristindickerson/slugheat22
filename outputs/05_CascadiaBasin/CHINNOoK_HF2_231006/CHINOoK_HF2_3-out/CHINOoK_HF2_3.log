@@ -1,0 +1,22 @@
+Penetration file /Users/kristindickerson/03_local-repos/slugheat/inputs/CHINOoK/CHINOoK_rf/HF2/CHINOoK_HF2_3.pen read ...
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 266
+Heat Pulse Record:  285
+End of Data Record: 317
+
+06-Oct-2023 13:31:11 - End of raw data reading and preparation !
+==========================================================================
+
+
+TAP file CHINOoK_HF2_3.tapread ...
+
+-------------------------------------------------------------------------------
+06-Oct-2023 13:31:35
+ - Begin SlugHeat22 PROCESSING
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+-------------------------------------------------------------------------------
+Penetration Start record number has been manually changed by user. New penetration start: ć

@@ -1,0 +1,26 @@
+TAP file not found ...
+TAP data read in PEN file: Tilt = 38.4 deg - Depth = 2503.0 m ...
+
+Split penetration and heat pulse data:
+There is NO heat pulse record ...
+
+Penetration Record: 6
+Heat Pulse Record:  -999
+End of Data Record: 53
+
+15-Sep-2023 12:30:59 - End of raw data reading and preparation !
+==========================================================================
+
+
+TAP file MV9510E_rf.tapread ...
+
+-------------------------------------------------------------------------------
+15-Sep-2023 12:31:33
+ - Begin SlugHeat22 PROCESSING
+Split penetration and heat pulse data:
+There is NO heat pulse record ...
+
+Penetration Record: 6
+Heat Pulse Record:  -999
+End of Data Record: 53
+

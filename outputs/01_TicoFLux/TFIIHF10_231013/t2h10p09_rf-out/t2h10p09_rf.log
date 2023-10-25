@@ -1,0 +1,34 @@
+Penetration file /Users/kristindickerson/03_local-repos/slugheat/inputs/Old_HFData/ReformattedPens/TicoFluxII_rf/hf10_rf/t2h10p09_rf.pen read ...
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 6
+Heat Pulse Record:  50
+End of Data Record: 121
+
+13-Oct-2023 09:41:47 - End of raw data reading and preparation !
+==========================================================================
+
+
+TAP file t2h10p09_rf.tapread ...
+
+-------------------------------------------------------------------------------
+13-Oct-2023 09:42:08
+ - Begin SlugHeat22 PROCESSING
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 6
+Heat Pulse Record:  50
+End of Data Record: 121
+
+-------------------------------------------------------------------------------
+13-Oct-2023 09:43:29
+ - Begin SlugHeat22 PROCESSING
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 6
+Heat Pulse Record:  50
+End of Data Record: 121
+

@@ -1,0 +1,56 @@
+Penetration file /Users/kristindickerson/03_local-repos/slugheat/inputs/Old_HFData/ReformattedPens/RetroFlux-2000_rf/E01_rf/00E01P01_rf.pen read ...
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 22
+Heat Pulse Record:  47
+End of Data Record: 103
+
+17-Oct-2023 07:01:10 - End of raw data reading and preparation !
+==========================================================================
+
+
+TAP file 00E01P01_rf.tapread ...
+
+These sensors are IGNORED in processing: 1
+
+-------------------------------------------------------------------------------
+17-Oct-2023 07:02:07
+ - Begin SlugHeat22 PROCESSING
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 22
+Heat Pulse Record:  47
+End of Data Record: 103
+
+-------------------------------------------------------------------------------
+17-Oct-2023 07:02:51
+ - Begin SlugHeat22 PROCESSING
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 22
+Heat Pulse Record:  47
+End of Data Record: 103
+
+-------------------------------------------------------------------------------
+17-Oct-2023 07:06:39
+ - Begin SlugHeat22 PROCESSING
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 22
+Heat Pulse Record:  47
+End of Data Record: 103
+
+-------------------------------------------------------------------------------
+17-Oct-2023 07:07:56
+ - Begin SlugHeat22 PROCESSING
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+Penetration Record: 22
+Heat Pulse Record:  47
+End of Data Record: 103
+
