@@ -175,6 +175,7 @@ DataLimits = [max([min(ix) min(iy)]) min([max(ix) max(iy)])];
 NumberOfFricUsedPoints = 1+diff(DataLimits);
 clear ix iy jx jy
 
+
 X = reshape(DataFAT(DataLimits(1):DataLimits(2),:,:), ...
     [NumberOfFricUsedPoints NumberOfSensorsUsed*FricMaxStep]);
 Y = reshape(DataTemp(DataLimits(1):DataLimits(2),:,:), ...
