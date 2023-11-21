@@ -34,10 +34,33 @@ function 	[PenFileName, PenFilePath, PenFile, ...
 	% Penetration (PEN) file name and path
 	% ---------------------------------------------
     PrintStatus(ProgramLogId, ' -- Finding penetration file from SlugPen...',1);
+
+    figure_Main.Interruptible='off';
+    drawnow
     
 	[PenFileName, PenFilePath] = uigetfile( ...
 		[PenFilePath '*.pen'], ...
 		'Select penetration file');
+
+    if PenFileName==0
+        uialert(figure_Main,'Program depricated. Please restart SlugHeat.',...
+            'ERROR', 'Icon','error')
+        PenFileName=0;
+        PenFilePath=0;
+        PenFile=0;
+		TAPName=0;
+        TAPFileName=0;
+        TAPFile=0;
+        MATFileName=0;
+        MATFile=0;
+		LogFileName=0;
+        LogFile=0;
+		ResFileName=0;
+        ResFile=0;
+        LogFileId=0;
+        ResFileId=0;
+        return
+    end
 
     figure(figure_Main);
 

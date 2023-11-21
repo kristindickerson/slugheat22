@@ -113,6 +113,7 @@ if ~all(MeanCalibTemps==-999)
     if WaterThermistor == 1
         TOFFSETBW = MeanCalibTemps(end) - TCAL;
         WaterSensorCalibratedTemp = AllSensorsRawData(:, end) - TOFFSETBW;
+        PenTopSens  = WaterSensorCalibratedTemp(PenRecords); % only sensor on top of data logger
     end
 
     pause(1)
@@ -132,7 +133,6 @@ end
 % temperature
     if WaterThermistor == 1 && BWChosen == 0
         BottomWaterValue = mean(PenTopSens, 1, 'omitnan');
-        assignin('base', "BottomWaterValue",BottomWaterValue);
     elseif BWChosen == 0
         ChooseBW = uiconfirm(figure_Main, ['Bottom water sensor is not found or is being ignored.' newline ...
         'Options for choosing alternate bottom water temperature: ' newline newline ...
@@ -142,7 +142,6 @@ end
         switch ChooseBW
         case 'Option (1)'
             BottomWaterValue = AllSensorsCalibratedTemp(PenetrationRecord-1, end);
-            assignin('base', "BottomWaterValue",BottomWaterValue);
         case 'Option (2)'
             UserBWTApp = UserBWTAuxApp(AllSensorsCalibratedTemp, NumberOfSensors, SensorsToUse, AllRecords, PenetrationRecord);
               BottomWaterApp = BottomWaterAuxApp(app,...
@@ -160,7 +159,6 @@ end
         end
     end 
 
-     BottomWaterValue = evalin('base','BottomWaterValue');
      BottomWaterTemp = repmat(BottomWaterValue, 1,NumSensTot);
 
 
@@ -170,15 +168,16 @@ end
 if WaterThermistor == 1
     BottomWaterTemp = repmat(BottomWaterTemp(1:end-1),NumRecords,1); % extended array of bottom water sensor data for each thermistor except the actual bototm water sensor
     AllSensorsTempRelBW = AllSensorsCalibratedTemp(:, 1:end-1) - BottomWaterTemp; % subtract bottom water from all temps of all thermistors except the actual bottom water sensor
+    WaterSensorTemp = WaterSensorCalibratedTemp;
 else
     BottomWaterTemp = repmat(BottomWaterTemp(1:end),NumRecords,1); % extended array of bottom water sensor data for each thermistor 
     AllSensorsTempRelBW = AllSensorsCalibratedTemp(:, 1:end) - BottomWaterTemp; % subtract bottom water from all temps of all thermistors because no water sensor
+    WaterSensorTemp = [];
 end
 
 % Manual offset
 % -------------
 AllSensorsTempRelBW = AllSensorsTempRelBW + Offset;
-WaterSensorTemp = WaterSensorCalibratedTemp;
 
 BottomWaterTemp = BottomWaterTemp(1);
 
